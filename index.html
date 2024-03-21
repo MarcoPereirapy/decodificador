@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="styles/style.css">
+   
+</head>
+
+<body>
+    <main class="container__principal">
+        <header class="cabecalho">
+            <img src="assets/Frame 6.png" alt="logo alura">
+        </header>
+
+        <div class="entrada__saida__dados">
+            <div class="entrada">
+                <textarea  id="entrada__texto" placeholder="Inserir o texto."></textarea>
+                <p>ALERTA!: Apenas Letras Maiúsculas e sem acentos!</p>
+                
+            </div>
+
+        <div id="saida">
+            <img src="assets/reborn.png" alt="reborn em pe">
+            <h2>Sua mensagem sera exibida aqui.</h2>
+            <span>Digite um texto para criptografar ou descriptografar.</span>
+            <button class="btn-copiar" onclick="copiar()">Copiar</button>
+        </div>    
+        </div>
+
+        <div class="botoes">
+            <div class="botoes__acao">
+                <button onclick="criptografar()">Criptografar</button>
+                <button onclick="descriptografar()">Descriptografar</button>
+                <button onclick="limpar()">limpar</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="rodape">
+       <p>Criado por <a href="">MarcoPy</a></p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+:root{
+    --corprincipal: #393E46;
+    --corsecundaria: #6D9886;
+    --cortextop: #F2E7D5;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto+Condensed:ital@0;1&display=swap');
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+.cabecalho img {
+    width: auto;
+    height: auto;
+}
+
+.entrada__saida__dados{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.entrada__saida__dados .entrada{
+    width: 400px;
+    height: 330px;
+    padding: 10px;
+}
+
+#entrada__texto{
+    text-transform: capitalize;
+    text-underline-offset: 8px;
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: var(--corsecundaria);
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+   
+}
+
+#saida{
+  
+    flex-direction: column;
+    border: 3px solid var(--corprincipal);
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    margin-right: 5%;
+}
+
+#saida h2{
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--corsecundaria);
+}
+
+#saida span{
+    font-size: 1rem;
+    text-align: center;
+}
+
+#saida img{
+    max-width: 400px;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+    margin: 10%;
+}
+
+.botoes__acao button{
+    text-align: center;
+    border: 2px solid var(--cortextop);
+    border-radius: 10px;
+    text-decoration: none;
+    color:var(--corprincipal);
+    width: 150px;
+    height: 50px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+
+
+
+.botoes__acao button:hover{
+    border: 2px solid var(--corprincipal);
+    transition: 0.3s all;
+
+}
+
+.rodape{
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 24px;
+    text-align: center;
+    background:var(--corsecundaria);
+    color: rgb(12, 12, 12);
+    width: 100%;
+}
+
+
+
+
